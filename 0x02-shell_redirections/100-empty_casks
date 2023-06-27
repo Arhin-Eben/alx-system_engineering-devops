@@ -1,3 +1,2 @@
 #!/bin/bash
-#!/bin/bash
-find . -empty -printf "%Pn"
+find . -type d -empty -printf '%fn' ; find . -type f -empty -printf '%fn' ; echo
